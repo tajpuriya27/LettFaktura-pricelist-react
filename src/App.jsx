@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Pricelist from "./components/Pricelist";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/sidebar";
 
 function App() {
   return (
