@@ -1,11 +1,15 @@
 import profile from "../assets/profile-avatar.png";
 import no_flag from "../assets/no_flag.png";
+import { BsJustify } from "react-icons/bs";
 
 const Header = () => {
   return (
     <div className="header-wrapper">
       <div className="header">
-        <div className="header-right">
+        <div className="menu-icon">
+          <BsJustify className="icon" />
+        </div>
+        <div className="header-left">
           <img className="profile-pic" src={profile} alt="profile-picture" />
 
           <span>
@@ -13,7 +17,7 @@ const Header = () => {
             <p>Starfjord AS</p>
           </span>
         </div>
-        <div className="header-left">
+        <div className="header-right">
           <p>Norsk Bokmal</p>
           <img className="flag" src={no_flag} alt="profile-picture" />
         </div>
