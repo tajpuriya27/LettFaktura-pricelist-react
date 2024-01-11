@@ -1,5 +1,6 @@
 import profile from "../assets/profile-avatar.png";
 import no_flag from "../assets/no_flag.png";
+import uk_flag from "../assets/uk_flag.png";
 import { BsJustify } from "react-icons/bs";
 
 const Header = () => {
@@ -9,9 +10,12 @@ const Header = () => {
         <div className="menu-icon">
           <BsJustify className="icon" />
         </div>
+        <div className="header-right-tv">
+          <p>English</p>
+          <img className="flag" src={uk_flag} alt="profile-picture" />
+        </div>
         <div className="header-left">
           <img className="profile-pic" src={profile} alt="profile-picture" />
-
           <span>
             <h3>John Andre</h3>
             <p>Starfjord AS</p>
