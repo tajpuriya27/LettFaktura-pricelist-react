@@ -1,12 +1,38 @@
+import {
+  BsFillPlusCircleFill,
+  BsPrinterFill,
+  BsToggle2On,
+} from "react-icons/bs";
+
 import content from "../../price.json";
-console.log(content);
 
 const Pricelist = () => {
   return (
     <div className="main">
       <div id="price-title">
-        <h1>Price List</h1>
-        <button className="btn">Add New</button>
+        <div className="price-title-left">
+          <section>
+            <input type="text" placeholder="Search Article No." />
+          </section>
+          <section>
+            <input type="text" placeholder="Search Product" />
+          </section>
+        </div>
+        <div className="price-title-right">
+          <span className="btn-design">
+            <p>New product</p>
+            <BsFillPlusCircleFill className="icon-true" />
+          </span>
+
+          <span className="btn-design">
+            <p>Print List</p>
+            <BsPrinterFill className="icon" />
+          </span>
+          <span className="btn-design">
+            <p>Advance Mode</p>
+            <BsToggle2On className="icon " />
+          </span>
+        </div>
       </div>
       <div id="price-content">
         <table>
