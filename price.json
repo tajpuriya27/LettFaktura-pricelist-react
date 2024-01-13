@@ -1,0 +1,164 @@
+[
+  {
+    "article_no": "1",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "2",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "3",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "4",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "5",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "6",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "7",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "8",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "9",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "10",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "11",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "12",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "13",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "14",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "15",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "16",
+    "service": "This is a test service with fifty characters",
+    "in_price": "100",
+    "out_price": "200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "17",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  },
+  {
+    "article_no": "18",
+    "service": "This is a test service with fifty characters",
+    "in_price": "9870",
+    "out_price": "1200",
+    "unit": "pcs",
+    "in_stock": "100",
+    "description": "This is a test description with fifty characters"
+  }
+]

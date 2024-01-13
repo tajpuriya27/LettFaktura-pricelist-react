@@ -31,7 +31,7 @@ body {
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 82px 3fr;
-  grid-template-areas: "header header" "sidebar main";
+  grid-template-areas: "header header" "sidebar pricelist";
   height: 100vh;
 }
 
@@ -155,16 +155,50 @@ aside > .sidebar-title-tv {
 }
 /* End: Sidebar */
 
+/* Start: Pricelist */
 .main {
-  grid-area: main;
+  grid-area: pricelist;
   background-color: var(--background-color);
+  padding: 2rem 3.5rem;
+  overflow-x: hidden;
 }
+
+.main > #price-title {
+  width: 100%;
+}
+
+.main > #price-content {
+  margin-top: 1rem;
+  overflow: auto;
+}
+
+.main > #price-content > table {
+  background-color: var(--background-color);
+  border-spacing: 1rem;
+}
+
+.main > #price-content > table > thead > tr > th {
+  font-weight: 700;
+}
+
+.main > #price-content > table > tbody > tr > td {
+  border: 1px solid var(--theme-color);
+  border-radius: 20px;
+  width: fit-content;
+  padding: 4px 6px;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* End: Pricelist */
 
 @media screen and (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: 82px 3fr;
-    grid-template-areas: "header" "main";
+    grid-template-areas: "header" "pricelist";
   }
 
   .header {
