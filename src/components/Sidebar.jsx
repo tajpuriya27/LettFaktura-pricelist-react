@@ -1,3 +1,4 @@
+import profile from "../assets/profile-avatar.png";
 import {
   BsFileEarmarkText,
   BsPersonFill,
@@ -10,11 +11,23 @@ import {
   BsFillCloudDownloadFill,
   BsPercent,
   BsEscape,
+  BsX,
 } from "react-icons/bs";
 
-const Sidebar = () => {
+const Sidebar = ({ openSidebarToggle, OpenSidebar }) => {
   return (
-    <aside className="sidebar">
+    <aside className={openSidebarToggle ? "sidebar-responsive" : ""}>
+      <div className="sidebar-title-tv">
+        <div className="sidebar-tv-left">
+          <span>
+            <h3>John Andre</h3>
+            <p>Starfjord AS</p>
+          </span>
+        </div>
+        <div className="sidebar-tv-right">
+          <BsX className="icon" onClick={OpenSidebar} />
+        </div>
+      </div>
       <p>Menu</p>
       <hr />
       <ul>

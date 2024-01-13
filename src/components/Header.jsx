@@ -3,12 +3,12 @@ import no_flag from "../assets/no_flag.png";
 import uk_flag from "../assets/uk_flag.png";
 import { BsJustify } from "react-icons/bs";
 
-const Header = () => {
+const Header = ({ OpenSidebar }) => {
   return (
     <div className="header-wrapper">
       <div className="header">
         <div className="menu-icon">
-          <BsJustify className="icon" />
+          <BsJustify className="icon" onClick={OpenSidebar} />
         </div>
         <div className="header-right-tv">
           <p>English</p>
