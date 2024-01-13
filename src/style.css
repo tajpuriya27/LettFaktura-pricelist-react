@@ -116,6 +116,10 @@ aside > ul > li {
   font-weight: 300;
 }
 
+aside > .sidebar-title-tv {
+  display: none;
+}
+
 .icon,
 .icon-1,
 .icon-2,
