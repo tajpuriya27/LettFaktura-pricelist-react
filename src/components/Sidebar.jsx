@@ -1,4 +1,3 @@
-import profile from "../assets/profile-avatar.png";
 import {
   BsFileEarmarkText,
   BsPersonFill,
