@@ -249,6 +249,25 @@ td:nth-child(6) {
 
 /* End: Pricelist */
 
+/* Start: Responsive */
+@media screen and (max-width: 992px) {
+  .main > #price-content > table > tbody > tr > td:nth-child(2) {
+    max-width: 125px;
+  }
+
+  .main > #price-content > table > tbody > tr > td:nth-child(7),
+  .main > #price-content > table > thead > tr > th:nth-child(7) {
+    display: none;
+    /* background-color: red; */
+  }
+
+  .main > #price-content > table > tbody > tr > td:last-child,
+  .main > #price-content > table > thead > tr > th:last-child {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -327,12 +346,6 @@ td:nth-child(6) {
   .main > #price-content > table > tbody > tr > td:nth-child(n + 5),
   .main > #price-content > table > thead > tr > th:nth-child(n + 5) {
     display: none;
-  }
-
-  .main > #price-content > table > tbody > tr > td:last-child,
-  .main > #price-content > table > thead > tr > th:last-child {
-    display: block;
-    text-align: center;
   }
 }
 
