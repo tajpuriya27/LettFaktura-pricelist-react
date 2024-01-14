@@ -4,6 +4,8 @@ import {
   BsToggle2On,
 } from "react-icons/bs";
 
+import { FaEllipsisH } from "react-icons/fa";
+
 import content from "../../price.json";
 
 const Pricelist = () => {
@@ -45,6 +47,7 @@ const Pricelist = () => {
               <th>Unit</th>
               <th>In Stock</th>
               <th>Description</th>
+              <th>More</th>
             </tr>
           </thead>
           <tbody>
@@ -58,6 +61,9 @@ const Pricelist = () => {
                 <td>{product.unit}</td>
                 <td>{product.in_stock}</td>
                 <td>{product.description}</td>
+                <td>
+                  <FaEllipsisH />
+                </td>
               </tr>
             ))}
           </tbody>

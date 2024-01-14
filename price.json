@@ -10,10 +10,10 @@
   },
   {
     "article_no": "2",
-    "service": "This is a test service with fifty characters",
+    "service": "This is a test service with fifty characters.",
     "in_price": "9870",
     "out_price": "1200",
-    "unit": "pcs",
+    "unit": "kilometer/hour",
     "in_stock": "100",
     "description": "This is a test description with fifty characters"
   },
