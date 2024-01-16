@@ -388,6 +388,11 @@ td:nth-child(6) {
   .main > #price-content > table > thead > tr > th:nth-child(n + 5) {
     display: none;
   }
+  .main > #price-content > table > tbody > tr > td:last-child,
+  .main > #price-content > table > thead > tr > th:last-child {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Start: Mobile view */
@@ -426,7 +431,7 @@ td:nth-child(6) {
 
   .main > #price-content > table {
     background-color: var(--background-color);
-    border-spacing: 0.4rem;
+    border-spacing: 0.2rem;
   }
 
   .main > #price-content > table > thead > tr > th {
